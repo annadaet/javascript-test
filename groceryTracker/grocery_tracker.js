@@ -8,6 +8,7 @@ function calculate_grocery(){
     grocery3 = parseFloat(document.getElementById('grocery3').value);
 
     let amount = grocery1 + grocery2 + grocery3;
+
+    document.getElementById('total').innerText = 'the total amount is:  ${amount}';
 }
 
-document.getElementById('total').innerText = 'the total amount is:  ${amount}';
