@@ -10,4 +10,4 @@ function calculate_grocery(){
     let amount = grocery1 + grocery2 + grocery3;
 }
 
-document.getElementById('total').innerText = 'the total amount is: ' ${amount};
+document.getElementById('total').innerText = 'the total amount is:  ${amount}';
